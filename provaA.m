@@ -1,7 +1,4 @@
 %% Prova MATLAB Tipo A: script di avvio (da NON modificare, per la consegna
-%  creare un proprio script con i comandi eseguiti man mano nello
-%  svolgimento degli esercizi
-
 % Inizializzazione parametri (altoparlante ad attrazione elettromagnetica)
 m = 0.1;
 b = 0.4;
