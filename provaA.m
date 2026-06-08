@@ -60,4 +60,12 @@ Klim=margin(G)
 
 K1=Klim*0.8
 Gcl1=feedback(G*K1,1)
+%Forzare il calcolo per il tempo richiesto al 5%
+popt = timeoptions;
+popt.SettleTimeThreshold = 0.05;
+f2 = figure;
+f2.Visible = 'on';
+%Ti esce il grafico fai tasto destro, charateristics, settling time e mandi
+%foto al prof del numero che ti è uscito
+step(Gcl1, popt)
 figure,step(Gcl1)
