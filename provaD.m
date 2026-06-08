@@ -1,4 +1,4 @@
-%% Prova MATLAB Tipo C: script di avvio (da NON modificare!)
+%% Prova MATLAB Tipo D: script di avvio (da NON modificare!)
 %  Per la consegnam creare un proprio script con i comandi eseguiti man 
 %  mano nello svolgimento degli esercizi
 
