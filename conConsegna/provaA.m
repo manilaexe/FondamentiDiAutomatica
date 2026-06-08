@@ -24,7 +24,7 @@ G=tf(sys)
 %trovare i poli e conforntarli con gli autovalori
 p=pole(G)
 
-autovalori=eig(G)
+autovalori=eig(A)
 
 %poli ed autovalori
 %coincidono quindi il sistema è completamente osservabile e controlabile
